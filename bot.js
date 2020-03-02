@@ -88,10 +88,8 @@ function getRandInd(user) {
 function wait() {
   setTimeout(() => {}, 10000);
 }
-function checkAnswer(user, msg, data, ans) {
-  msg.toLowerCase();
-  ans.toLowerCase();
-  return ans == msg;
+function checkAnswer(msg, ans) {
+  return ans.toLowerCase() == msg.toLowerCase();;
 }
 // quiz start
 bot.command('!start', (ctx) => {
@@ -181,6 +179,7 @@ bot.on((ctx) => {
     let quesion = quiz[user.cur_game][user.cur_ind];
     let question_data = quesion["question"], question_answer = quesion["answer"];
     wait();
+    console.log(msg.toLowerCase());
     if(user.is_answering) {
       if(msg.toLowerCase() == "сдаюсь") {
         bot.reply(user_id, "Эх ты, бубалеха, верный ответ: " + question_answer);
