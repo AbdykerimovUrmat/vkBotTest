@@ -4,8 +4,8 @@
 
   "movies" : [
     {
-      "question": "Навальный?", 
-      "answer": "20!8"
+      "question": "Самый первый фильм, в котором использовали компьютерую графику - ...", 
+      "answer": "star wars"
     }, 
     {
       "question": "Сколько Тимур получит по матану?", 
@@ -13,6 +13,10 @@
     },
     {
       "question": "Будете у нас на ... , милости просим! Что вставить вместо точек?", 
+      "answer": "колыме"
+    },
+    {
+      "question": "В каком фильме?", 
       "answer": "колыме"
     }
   ], 
@@ -29,25 +33,73 @@
       "answer": "mcboroda"
     },
     {
-      "question": "Кумыс?", 
-      "answer": "ануар"
+      "question": "", 
+      "answer": ""
+    },
+    {
+      "question": "Чей день рождения самый важный на свете? (М... д.....и", 
+      "answer": "моей девушки"
+    },
+    {
+      "question": "Чей день рождения самый важный на свете? (М... д.....и", 
+      "answer": "моей девушки"
     }
   ], 
 
   
   
-  "art" : [
+  "games" : [
     {
-      "question": "я же сказал не заходить!", 
-      "answer": "бл ть!"
+      "question": "Как зовут брата Марио?", 
+      "answer": "луиджи"
     }, 
     {
-      "question": "Занято н й", 
-      "answer": "!"
+      "question": "Самая продаваемая игра после Тетриса - ...", 
+      "answer": "minecraft"
     },
     {
-      "question": "Вы кто такие", 
-      "answer": "!"
+      "question": "Полное имя главного героя GTA San Andreas - C... J.......", 
+      "answer": "carl johnson"
+    },
+    {
+      "question": "Сколько в тетрисе различных блоков?", 
+      "answer": "7"
+    },
+    {
+      "question": "Самая первая игра в мире - s.... w...", 
+      "answer": "space wars"
+    },
+    {
+      "question": "", 
+      "answer": "carl johnson"
+    },
+    {
+      "question": "Полное имя главного героя GTA San Andreas - C... J.......", 
+      "answer": "carl johnson"
+    },
+    {
+      "question": "Полное имя главного героя GTA San Andreas - C... J.......", 
+      "answer": "carl johnson"
+    },
+    {
+      "question": "Полное имя главного героя GTA San Andreas - C... J.......", 
+      "answer": "carl johnson"
+    }
+  ],
+
+
+  "localHumour" : [
+    {
+      "question": "Кто настоящий гений?", 
+      "answer": "саня"
+    }, 
+    {
+      "question": "А я .....!", 
+      "answer": "говорил"
+    },
+    {
+      "question": "", 
+      "answer": "carl johnson"
     }
   ]
 }
