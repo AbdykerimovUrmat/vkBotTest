@@ -9,59 +9,9 @@ const { Botact } = require("botact"),
     confirmation: "61eab03f"
   });
 let users_info = new Map(); // users info
-const quiz = {
 
-  //MOVIES
+const quiz = require("quiz.json");
 
-  "movies" : [
-    {
-      "question": "Навальный?", 
-      "answer": "20!8"
-    }, 
-    {
-      "question": "Сколько Тимур получит по матану?", 
-      "answer": "3"
-    },
-    {
-      "question": "Будете у нас на ... , милости просим! Что вставить вместо точек?", 
-      "answer": "колыме"
-    }
-  ], 
-
-  //MUSIC
-
-  "music" : [
-    {
-      "question": "Милая ... , милая ...", 
-      "answer": "пони"
-    }, 
-    {
-      "question": "лучший рэпер 2019?", 
-      "answer": "mcboroda"
-    },
-    {
-      "question": "Кумыс?", 
-      "answer": "ануар"
-    }
-  ], 
-
-  //ART
-  
-  "art" : [
-    {
-      "question": "я же сказал не заходить!", 
-      "answer": "бл ть!"
-    }, 
-    {
-      "question": "Занято н й", 
-      "answer": "!"
-    },
-    {
-      "question": "Вы кто такие", 
-      "answer": "!"
-    }
-  ]
-}
 let intToGame = {
   "1": "movies", 
   "2": "music", 
